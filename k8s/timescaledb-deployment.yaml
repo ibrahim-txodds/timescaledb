@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: timescaledb
-          image: harbor.txodds.com/aidan/timescaledb:latest-pg14
+          image: harbor.txodds.com/aidan/timescale:latest-pg14
           ports:
             - containerPort: 5432
           env:
