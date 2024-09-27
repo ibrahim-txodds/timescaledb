@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: timescaledb
-          image: docker pull harbor.txodds.com/aidan/timescale@sha256:aba5b231f139d5da94be8c2affc8e13dce3bb82c9c2b16e1a955660ba157e7a6
+          image: docker pull harbor.txodds.com/aidan/timescale:latest-pg14
           ports:
             - containerPort: 5432
           env:
